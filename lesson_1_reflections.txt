@@ -1,0 +1,69 @@
+1. Version control is important
+2. Tools like 'diff' and 'FC' on windoze can help save a lot of time.
+3. The order of arguments to diff matters on which lines are added or subtracted
+...i.e. it is not associative.
+4. It is important to keep the lines in your files short
+	(likely because it uses \n as a delimiter to find
+	those differences)...though it is a matter of personal
+	choice as to how long a line should be limited to.
+	Usually, this shouldn't be an issue.
+
+********************************************************************************
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Seeing two lines right next to one another helps the differences stand out.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You could see the order in which things are built, which will help you understand
+how it is organized and designed. You'll also be able to see where the newer
+and older sections of code are which can help you understand what changes may
+be contributing to a bug.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    A change in software can actually affect how something is functioning, thus, 
+forcing the 'issue' by ensuring someone has final say over when something is
+incorporated is an important function. It also ensures that the user is choosing
+when to incorporate changes, which is far more likely to be at a logical place, than
+at some random and arbitrary spot - which is the case for something like dropbox or 
+google docs, that will save every hour or whatever.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In coding, it is much more likely that you as a programmer will need to make 
+changes to multiple files at once, and further, that these changes will be related
+to each other logically. Thus, saving all changes at once, will allow these 'logical'
+differences between different commits to be visible.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    'git log' will show you the history of changes to a repository (i.e. all the
+different commits that have been implemented), and then 'git diff' will actually
+allow those files to be compared for the bonafide differences.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Having the ability to immediately go back to a previous version that you know
+worked will allow people to experiment with changes rapidly, and on a version of the
+program that may not affect all users, gives you the immediate ability to 'unbreak'
+the program.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Want to work on getting a production environment set up so I can download something
+that is live that will allow me to see some actual production code and 'work' on it
+using an 'end-to-end', and FULL/COMPLETE workflow of designing something, building it,
+testing it, and deploying it, and then maybe starting over in the middle.
+	I also feel like it is a means to establish a best practice for learning multiple
+different subjects in computer science, because it will allow me to work on one "thing" 
+while being able to maintain a high level of organization as well as history over what it
+is I have done, learned, and what I want to do. In short, it's a one-stop shop for 
+being able to organize large projects of any type.
