@@ -2,3 +2,15 @@ What happens when you initialize a repository? Why do you need to do it?
 	
 	git will create a new folder/file system that will be used to track
 all the future changes to the project. It has to be done in order to 'initialize' git...
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area lets me commit what I have 'ready' for commitment vs. what 
+the most recent commit. This lets me compare back and forth and ensure that what
+I have ready for commitment makes sense and is logically related to each other.
+
+How do the diagrams help you visualize the branch structure?
+
+	They, pretty obviously will let you understand the structure of changes
+that you have implemented in your code, but unfortunately, I'm not able to get
+the same behavior out of the lesson that has been shown in the videos.
