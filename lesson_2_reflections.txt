@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	git will create a new folder/file system that will be used to track
+all the future changes to the project. It has to be done in order to 'initialize' git...
