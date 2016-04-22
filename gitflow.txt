@@ -19,6 +19,10 @@ to be associated with the commit. The similar command 'git commit -m "My commit 
 skip opening the editor, and simply allow the parenthesized commit message to be associated with
 the commit.
 
+	4a. 'git log' will show a log of all the commits that have been made to a branch. 'git log --oneline'
+will show all the commits in a nice, one-line-for-each-message, user-friendly style, making it pretty
+easy to see the entire list of commits to a branch.
+
 5. 'git diff' (with no arguments) will show you what the difference is between what has been changed
 in the working directory, and the staging area. 'git diff --staged' will show you the difference
 between what has been staged, and what is in the most recent commit. Both of these commands are 
