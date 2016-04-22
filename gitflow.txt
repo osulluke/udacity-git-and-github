@@ -1,0 +1,22 @@
+1. Step one in the workflow to use 'git' is to 'initialize' a git repository.
+	This is done with the command 'git init'
+
+2. A nice command is 'git status' because it will show the most recent changes
+to files that have happened (i.e. changes that have occurred since the last 'commit').
+The 'git status' command will show you changes to files that are both 'tracked' as well
+as 'untracked'. 'tracked' files initially show up as those files which have changed, but
+not been 'staged for a commit'.
+
+3. 'git add <file>' is a command that will 'stage' the files you want committed via the
+next 'git commit' command. This will allow small, incremental, and logical changes to be
+'committed' together, enhancing the control a user has over the progression of a project. 
+A 'git status' command run after the staging operation has taken place will show the files
+that were previously listed as being 'Changes to be committed:'.
+
+4. 'git commit' will add the files that were staged, as well as open my editor of choice to 
+allow me to incorporate a 'commit message' which will allow a brief description of the change
+to be associated with the commit. The similar command 'git commit -m "My commit message"' will
+skip opening the editor, and simply allow the parenthesized commit message to be associated with
+the commit.
+
+5. 
