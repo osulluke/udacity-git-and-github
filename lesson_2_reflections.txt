@@ -6,11 +6,19 @@ all the future changes to the project. It has to be done in order to 'initialize
 How can you use the staging area to make sure you have one commit per logical change?
 
 	The staging area lets me commit what I have 'ready' for commitment vs. what 
-the most recent commit. This lets me compare back and forth and ensure that what
-I have ready for commitment makes sense and is logically related to each other.
+the most recent 'total set of changes' is. This lets me compare back and forth and ensure that what
+I have ready for commitment makes sense and is logically related to each other, instead of being forced
+to commit "everything" I have been working on (i.e. if some things aren't yet ready).
 
 How do the diagrams help you visualize the branch structure?
 
-	They, pretty obviously will let you understand the structure of changes
+	They, pretty obviously, will let you understand the structure of changes
 that you have implemented in your code, but unfortunately, I'm not able to get
 the same behavior out of the lesson that has been shown in the videos.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Maybe I'm working on a new feature, and don't want to mix in a bunch of comments that
+arent' related to the main thrust of the work effort into the middle of what everyone else
+is working on. "Branching off" would help me containerize the changes that are all related 
+to one feature along one logical branch.
