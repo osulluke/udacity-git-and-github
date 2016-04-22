@@ -26,3 +26,7 @@ different variations of what has been used previously (i.e. 'git diff commit1 co
 
 	Ok, all of this stuff above is without making any new 'branches' to my working project. The
 next set of commands and information will discuss using git to make branches to projects, etc.
+
+6. 'git branch' will display what branch you are currently using, as well as a list of all the other
+branches that you have created. 'git branch <name>' will create a new 'branch' with <name> and is
+basically a duplicate of all the code at the time the command has been run.
