@@ -19,4 +19,10 @@ to be associated with the commit. The similar command 'git commit -m "My commit 
 skip opening the editor, and simply allow the parenthesized commit message to be associated with
 the commit.
 
-5. 
+5. 'git diff' (with no arguments) will show you what the difference is between what has been changed
+in the working directory, and the staging area. 'git diff --staged' will show you the difference
+between what has been staged, and what is in the most recent commit. Both of these commands are 
+different variations of what has been used previously (i.e. 'git diff commit1 commit2').
+
+	Ok, all of this stuff above is without making any new 'branches' to my working project. The
+next set of commands and information will discuss using git to make branches to projects, etc.
