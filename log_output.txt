@@ -1,0 +1,15 @@
+* 03ffcb9 Test of 'git log --oneline'.
+| * d468e7e Update file.
+| * cb3f678 Create new branch; add 'extrafile.txt'.
+|/  
+* fb0d4ad Add description of 'git log'.
+* 8739a1c Add additional 'branching' information.
+* c12df4b Add 'Critical Reflections' Paper
+* 8554bd1 Add 'why branches are helpful'; grammar edits.
+* dd6f89e Add basic 'git branch' command description.
+* 2638398 Finish discussion about 'git diff'
+* d384779 Add gitflow.txt describing the git work-flow.
+* f4cf349 Update to lesson_1_reflections.txt
+* b1c4992 Add L2 reflections w/o understanding of branching behavior.
+* 0193b3f My 2nd commit; using command line
+* 06d2f9f My first commit.
