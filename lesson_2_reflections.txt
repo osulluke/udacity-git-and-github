@@ -14,7 +14,9 @@ How do the diagrams help you visualize the branch structure?
 
 	They, pretty obviously, will let you understand the structure of changes
 that you have implemented in your code, but unfortunately, I'm not able to get
-the same behavior out of the lesson that has been shown in the videos.
+the same behavior out of the lesson that has been shown in the videos. UPDATE: I'm
+now able to get the proper branch structure to show up. It required me to use '2' names
+of branches on the command line (i.e. 'git log --oneline --graph master test-branch').
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
