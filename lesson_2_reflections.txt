@@ -26,3 +26,5 @@ to one feature along one logical branch.
 subjects of what they're working on and allows compartmentalization of features to take place.
 This, in turn, helps maintain a working featureful version of production code, but at the same
 time (in parallel) a version of the program that is similar, but being used for development.
+
+*****THIS LINE ADDED TO TEST 'git log' TO SEE IF IT WILL SHOW MORE BRANCHES.*****
