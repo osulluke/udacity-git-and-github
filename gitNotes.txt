@@ -1,0 +1,7 @@
+This file contains all of the Git Notes I will take from reading this book.
+
+(17 Jul 16)
+
+	The first thing I'm doing is adding this file of notes, as well as a script file that will help me keep track of my place in a .pdf file (electronic book)...which, in itself, has been a problem I've been trying to solve for a very long time...electronic books (especially .pdfs) have been something I've been trying to utilze for a very long time, but haven't found a good way.
+
+	The command is 'evince -i page# file_name.pdf &'. This gives me a simple way to update my 'location' in the book (by simply changing the page number after each study session). As well as a means to open it directly where I left off after my previous session!!! Awesome!
