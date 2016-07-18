@@ -5,3 +5,28 @@ This file contains all of the Git Notes I will take from reading this book.
 	The first thing I'm doing is adding this file of notes, as well as a script file that will help me keep track of my place in a .pdf file (electronic book)...which, in itself, has been a problem I've been trying to solve for a very long time...electronic books (especially .pdfs) have been something I've been trying to utilze for a very long time, but haven't found a good way.
 
 	The command is 'evince -i page# file_name.pdf &'. This gives me a simple way to update my 'location' in the book (by simply changing the page number after each study session). As well as a means to open it directly where I left off after my previous session!!! Awesome!
+
+CHAPTER 1 NOTES
+
+	Git can be used for more than just source code...it can track changes to all types of files. Git adds very little overhead to this amazing functionality.
+
+	Book mentions 'hierarchical work-flow,' but leaves it undefined.
+
+	Git stores 'snapshots' of all the files in a repository during each commit, which is fundamentally different than other VCSs, which tend to store file 'deltas' that are made during each commit/change. Git stores links to previous files if they go unchanged during a commit.
+
+	Because Git is distributed, it is fast, and doesn't require a network connection to allow individuals/collaborators to continue working.
+
+	Git has 'three' states: modified, staged, committed.
+	
+		modified = things in your working directory that have been changed.
+		staged = things changed in the working directory that have been moved to the index...i.e., 'staged.'...ready for the next snapshot.
+		commited = things that have undergone a commit operation, and are saved in the database.
+
+	.git is the actual "Repository."
+	The 'working directory' is what appears to be the set of files and folders that appear when you enter a folder that is a "git repository." <- That is IMPORTANT -> The working directory "is a single checkout of one version of the project."
+
+	GIT SETUP
+
+	/etc/gitconfig
+
+	To check on your configuration, run git config --list.

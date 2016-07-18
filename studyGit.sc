@@ -1,2 +1,2 @@
-evince -i 13 progit-en.1084.pdf &
+evince -i 43 progit-en.1084.pdf &
 subl gitNotes.txt &
