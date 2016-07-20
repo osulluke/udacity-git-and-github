@@ -51,7 +51,7 @@ CHAPTER 2 NOTES
 
 	COMMITTING CHANGES
 
-	(19 Jul 16)
+(19 Jul 16)
 
 		//BREAK// Something random I just learned is that while you have changed files in the sandbox (i.e. working directory), if you attempt to checkout another branch, git tells you that you'll lose those changes. This likely happens (I assume), because you are replacing your current working directory with another, and it gets over-written (effectively). It suggests that you either commit or "stash" those files...I've yet to learn what "stash" does.
 
@@ -76,3 +76,9 @@ CHAPTER 2 NOTES
 	There are a list of important git log options on page 64 of the book.
 
 	git log can be limited in time via the option --since=2.weeks
+
+	UNDOING STUFF
+
+	If you forget to add a file or something, you can run 'git commit --amend', and this will take your staging area and allow you to add other files to it and during the next commit, the old commit will be replaced with the newest one. If there have been no other changes since the last commit, running that previous command will only allow you to change the commit message.
+
+	git reset HEAD <file> and then 'git checkout -- <file>' are sequential commands used to both 'unstage' as well as 'discard' changes to files that were made. The second of those commands being especially dangerous because of the chance of overwriting data and losing it permanently.
