@@ -64,3 +64,5 @@ CHAPTER 2 NOTES
 	'git rm -f' is required depending on if changes have been made and it was added to the index (i.e. git thinks you might be removing something by mistake since it was staged for commit...).
 
 	OK, so after a lot of playing around, it does appear that 'git rm' works just as a sequence of 'rm <file>' then 'git add <file>' would work. Effectively, 'git rm' does both those steps in one fell swoop.
+
+	Moving files in git works well too. 'git mv <from> <to>' is the equivalent of a move, followed by a remove, and then an add...i.e. staging both the 'removal' and the 'add' for the next commit...it's convinience.
