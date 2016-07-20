@@ -30,3 +30,29 @@ CHAPTER 1 NOTES
 	/etc/gitconfig
 
 	To check on your configuration, run git config --list.
+
+(18 Jul 16)
+
+CHAPTER 2 NOTES
+	
+	git init builds the .git folder, which before there are any commits, is just a skeleton of a repository. The other way to get a repo is to clone it from an existing repository. (chapter 10 will go into a lot of detail about what kinds of files exist in the .git folder).
+
+	git clone [url/dir] copies (doesn't checkout) a version of the existing repo, which can be used to recreate a project should a centralized server version go down or become corrupted. The command also 'checks out' a working copy of the latest project version. This would be in the 'working directory' (or sandbox).
+
+	git status tells you what branch you are on, as well as whether or not you have diverged from the branch you cloned, and what files you have changed, but not staged, what files are staged (i.e. will be part of the next commit), and whether or not you have untracked files. 'git status -s' gives a much shorter version of what status gives...far less wordy.
+
+	git add <file> takes a file that is not being tracked (as well as one that has been modified, but is being tracked), and stages it for commit.
+
+	You can add a file called .gitignore to make sure that git will not attempt to include certain file types for tracking (such as binaries, and temporarily generated files). There are also exceptions that can be added to the file just in case there are a couple of files that do match a certain pattern that you don't want excluded. The book doesn't address where to place the .gitignore file...I guess it should just be in the main git repo?
+
+	git diff will show you the difference (the exact difference) in files that have changed. git diff (with no arguments) shows changes from the previous commit, that haven't been staged...i.e. the differences between the working area and the previous commit.
+
+	git diff --staged shows what will go into your next commit, and it's differences from your previous commit.
+
+	COMMITTING CHANGES
+
+	(19 Jul 16)
+
+		//BREAK// Something random I just learned is that while you have changed files in the sandbox (i.e. working directory), if you attempt to checkout another branch, git tells you that you'll lose those changes. This likely happens (I assume), because you are replacing your current working directory with another, and it gets over-written (effectively). It suggests that you either commit or "stash" those files...I've yet to learn what "stash" does.
+
+	git commit: the -v option includes what would show up if 'git diff' was executed, making it a much more detailed commit message. -a option allows you to skip the staging area, commiting every file in the working directory/sandbox that has been changed.
