@@ -56,3 +56,11 @@ CHAPTER 2 NOTES
 		//BREAK// Something random I just learned is that while you have changed files in the sandbox (i.e. working directory), if you attempt to checkout another branch, git tells you that you'll lose those changes. This likely happens (I assume), because you are replacing your current working directory with another, and it gets over-written (effectively). It suggests that you either commit or "stash" those files...I've yet to learn what "stash" does.
 
 	git commit: the -v option includes what would show up if 'git diff' was executed, making it a much more detailed commit message. -a option allows you to skip the staging area, commiting every file in the working directory/sandbox that has been changed.
+
+	REMOVING FILES FROM GIT
+
+	removing is a little more confusing, but in essence, git requires you to stage removals just like you would have to stage 'adds'. If a file is added to the working directory, but never committed, or staged, it can be removed with just the normal 'rm' command. If you have a file that is in the working directory (WD), and has been staged for commit, you need to use 'git rm' to get it out of the staged area, as well as out of the working directory.
+
+	'git rm -f' is required depending on if changes have been made and it was added to the index (i.e. git thinks you might be removing something by mistake since it was staged for commit...).
+
+	
