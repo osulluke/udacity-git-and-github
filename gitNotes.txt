@@ -65,4 +65,14 @@ CHAPTER 2 NOTES
 
 	OK, so after a lot of playing around, it does appear that 'git rm' works just as a sequence of 'rm <file>' then 'git add <file>' would work. Effectively, 'git rm' does both those steps in one fell swoop.
 
+	MOVING FILES IN GIT
+
 	Moving files in git works well too. 'git mv <from> <to>' is the equivalent of a move, followed by a remove, and then an add...i.e. staging both the 'removal' and the 'add' for the next commit...it's convinience.
+
+	GIT HISTORY (i.e. GIT LOG)
+
+	git log is one I already use quite often, just don't forget about a couple of cool commands: git log --stat; git log -p -2; git log --stat --oneline; and git log --pretty=oneline; and finally, the VERY useful git log --graph. The --graph option isn't one I've used yet too much, but it will become important as projects grow and being to develop branches and other features.
+
+	There are a list of important git log options on page 64 of the book.
+
+	git log can be limited in time via the option --since=2.weeks
