@@ -1,0 +1,17 @@
+I'm adding this file to test Git's ability to remove files.
+
+After I added the file, 'git status' produces the following output:
+
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	testRemove.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+After I moved the file out of the working area, 'git status' produces this:
+
+On branch master
+nothing to commit, working directory clean
+
