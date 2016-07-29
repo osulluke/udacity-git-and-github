@@ -25,8 +25,10 @@ arent' related to the main thrust of the work effort into the middle of what eve
 is working on. "Branching off" would help me containerize the changes that are all related 
 to one feature along one logical branch.
 	'branching' can also be thought of as 'context switching'. This allows someone to change
-subjects of what they're working on and allows compartmentalization of features to take place.
-This, in turn, helps maintain a working featureful version of production code, but at the same
-time (in parallel) a version of the program that is similar, but being used for development.
+subjects of what they're working on and allows compartmentalization of features to take place (***This would be a good example of where I could 'change the contexts' of this exact repo and commit changes to my BOOK NOTES separately from the changes I make to notes I'm keeping by watching the Udacity videos; instead, they are all grouped together into one big hodgepodge chain of commits...I wonder if I can move old commits to a new branch??? hmmm...***). This, in turn, helps maintain a working featureful version of production code, but at the same time (in parallel) a version of the program that is similar, but being used for development.
 
 *****THIS LINE ADDED TO TEST 'git log' TO SEE IF IT WILL SHOW MORE BRANCHES.*****
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When you merge two branches, git will create a new commit and attempt to resolve any conflicts that exist within the different branches. You update the branch name to point to the new merged branches. It is represented in a way to show all the different commits chronologically, in addition to graphically, to help distinguish the different logical paths that are being included in the new commit.
