@@ -32,3 +32,7 @@ subjects of what they're working on and allows compartmentalization of features 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	When you merge two branches, git will create a new commit and attempt to resolve any conflicts that exist within the different branches. You update the branch name to point to the new merged branches. It is represented in a way to show all the different commits chronologically, in addition to graphically, to help distinguish the different logical paths that are being included in the new commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging makes simple changes easy to administer and incorporate into your file and makes it so the program doesn't waste your time with changes that are obvious to the overall system. When there are things that are more confusing, i.e. non-obvious modifications to code, git has to ask a human to look at the differences to resolve those conflicts - otherwise poor changes would be incorporated, which would likely lead to code that wouldn't work properly, and would likely not even compile.
