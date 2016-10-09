@@ -4,7 +4,7 @@ This file contains all of the Git Notes I will take from reading this book.
 
 	The first thing I'm doing is adding this file of notes, as well as a script file that will help me keep track of my place in a .pdf file (electronic book)...which, in itself, has been a problem I've been trying to solve for a very long time...electronic books (especially .pdfs) have been something I've been trying to utilze for a very long time, but haven't found a good way.
 
-	The command is 'evince -i page# file_name.pdf &'. This gives me a simple way to update my 'location' in the book (by simply changing the page number after each study session). As well as a means to open it directly where I left off after my previous session!!! Awesome!
+	The command is 'evince -i page# file_name.pdf &'. This gives me a simple way to update my 'location' in the book (by simply changing the page number after each study session). As well as a means to open it directly where I left off after my previous session!!! Awesome! 
 
 CHAPTER 1 NOTES
 
@@ -82,3 +82,19 @@ CHAPTER 2 NOTES
 	If you forget to add a file or something, you can run 'git commit --amend', and this will take your staging area and allow you to add other files to it and during the next commit, the old commit will be replaced with the newest one. If there have been no other changes since the last commit, running that previous command will only allow you to change the commit message.
 
 	git reset HEAD <file> and then 'git checkout -- <file>' are sequential commands used to both 'unstage' as well as 'discard' changes to files that were made. The second of those commands being especially dangerous because of the chance of overwriting data and losing it permanently.
+
+(24 Jul 16)
+	
+	Working with REMOTE REPOSITORIES
+
+	Pulling/fetching from remotes: Difference between 'git fetch' and 'git pull' is that git pull will attempt ('git pull' "tries" to merge data) to merge changes that have taken place on the server into changes that you may have made on your local repository. 'git fetch' simply copies all the data from the repo; you need to do the manual labor necessary in order to merge all the changes.
+
+	Pushing to remotes:
+
+(9 Oct 16) - these notes come from the Udacity lesson as well as the book...
+
+	'git remote add origin https://github.com/.../.../.../repo.git' will add a remote repository to my git repo on the actual computer. I actually learned all this recently using a book, so it's pretty straight-forward to me at this point.
+
+	- there are a couple of cool added commands though, git remote -v will show the push and fetch locations for the remote; git push origin master will push your changes to github, and git pull will pull the latest changes to your computer. 'git push' won't work if someone else has pushed before you; in order for you to push, you'll have to incorporate their work first, and then execute the push. This helps to prevent conflicts from occurring.
+
+	- git pull will fetch new data from the server (github) AND attempt to merge it into any local files you have changed. 'git fetch' simply gets the changes from the server, but doesn't try to merge them into your work.
