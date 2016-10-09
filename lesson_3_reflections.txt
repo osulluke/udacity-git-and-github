@@ -1,0 +1,6 @@
+This file was added from Github to show the use of the 'git pull' command...pretty cool!
+
+Other things to figure out: 
+
+  -Can I keep a working log of work to be done? This might be the only thing that would be useful at work (i.e. can I edit files that are already committed)?
+  -I guess it might not be possible to 'add' a group of files? That's too bad...
