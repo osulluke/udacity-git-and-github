@@ -8,3 +8,7 @@ Other things to figure out:
 When would you want to use a remote repository rather than keeping all your work local?
 
 	- It is necessary when you want to collarborate with other people; maybe when you want to share your work with the open-source community; when you would like a back-up of your work and data to be preserved in case you lose your hard drive or laptop.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	- If GitHub automatically pushed changes to the remotes, one, that would use up a lot of bandwidth unecessarily, two, it would also mean that any changes you made that were conflicts would have to be resolved by you - on GitHub's timeline...not an ideal timeline.
