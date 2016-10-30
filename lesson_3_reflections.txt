@@ -12,3 +12,15 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 	- If GitHub automatically pushed changes to the remotes, one, that would use up a lot of bandwidth unecessarily, two, it would also mean that any changes you made that were conflicts would have to be resolved by you - on GitHub's timeline...not an ideal timeline.
+
+Forking - Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	- forking a repo is like cloning directly to your github account 'on' github (i.e. without first cloning to your computer). This lets you stay 'linked' to the original repo, and will make it easier to suggest changes to the original project.
+
+	- cloning is when you want to pull a repo direct to your computer without putting an associated repo on GitHub; a "fork" does a lot of tihs work for you in terms of cloning it to your GitHub account and keeping it linked with the original repo. Additionally, when you clone this "fork" to your own computer, git automatically adds the remotes, so you can pull and push seemlessly without the additional hassle of running "git remote add <> <>"...
+
+	- branches are separate, and they are mostly for keeping separate development efforts in a different category, to allow a feature or bug to be worked on/solved.
+
+	
+
+	
