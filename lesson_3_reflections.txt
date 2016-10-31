@@ -21,6 +21,10 @@ Forking - Describe the differences between forks, clones, and branches. When wou
 
 	- branches are separate, and they are mostly for keeping separate development efforts in a different category, to allow a feature or bug to be worked on/solved.
 
-	
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	- It means you are working with the most up-to-date version of the project.
+	- This, in turn, ensures that potential merge-conflicts are minimized.
+	
 	
