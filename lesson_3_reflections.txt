@@ -27,4 +27,20 @@ What is the benefit of having a copy of the last known state of the remote store
 	- It means you are working with the most up-to-date version of the project.
 	- This, in turn, ensures that potential merge-conflicts are minimized.
 	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	- Collaboration without GitHub would be much more difficult for a variety of reasons:
+
+		1. You would have to continuously, and update different versions of files that were being worked on.
+		2. Worse yet, you would have to search for those differences manually, or using some sort of tool to help you.
+		3. Worse still, in order to avoid those problems, you could split the work into different categories to 'divide' the problem to ensure no conflicts develop, but that sort of negates the whole point of having a tool such as git!
+		4. Working on the same project means someone would have to manage the sets of files being worked on, be in charge of the 'master' copy/version, and then continuously send out up-to-date versions (over email or something) for people working on the project to have the most recent versions.
+		5. Worse yet, you would then need to update 'your own' work with the differences introduced by everyone else's work into your own file set in order to resolve conflicts etc...
+		6. Wow, just seems like git really streamlines the ability of people to work together on a project and cut down on the amount of BS admin work that would normally be required.
+		7. Oh, worse yet, if you had to go 'back-in-time', you would have to reverse everything everyone had done to that point, potentially losing out on huge amounts of work and effort.
+		8. All the communication would have to be manual, and you would need to include everyone on a mailing list or something in order to ensure people are kept in the loop.
+		9. Git also compresses your files, so a lot of storage is saved. As opposed to other means, where you are making lots of copies of files, most of the time unecessarily - since many (most) files won't change from version to version.
+
+	- Working without GitHub has few advantages - the one I can see right up front is that no one needs to know how to use git, or GitHub...beyond that, however, the benefits become pretty shallow...
+
 	
